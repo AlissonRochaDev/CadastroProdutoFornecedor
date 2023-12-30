@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Lista de Produtos</title>
+</head>
+<body>
+    <header id="topo">
+        <h1>Cadastro de Fornecedor/Produto.</h1>
+    </header>
+
+    <main id="container">
+        <section class="boxFornecedor">
+            <div class="dadosFornecdor">
+                <h3>Dados do Fornecedor:</h3>
+            </div>
+            <form action="" method="POST" class="pForm">
+                <div class="boxForm">
+                    <div>
+                        <label>Razão Social:</label>
+                        <input type="text" name="rSocial" id="rSocial" placeholder="Digite aqui...">
+
+                        <label>Nome Fantasia:</label>
+                        <input type="text" name="nomeF" id="nomeF" placeholder="Digite aqui..."> 
+                        
+                        <label>Inscrição Estadual:</label>
+                        <input type="text" name="insEstado" id="insEstado" placeholder="Digite aqui...">                       
+
+                        <label>CNPJ:</label>
+                        <input type="number" name="cnpj" id="cnpj" placeholder="Digite aqui...">
+
+                        <label>Endereço:</label>
+                        <input type="text" name="local" id="local" placeholder="Digite aqui...">
+
+                        <label>Bairro:</label>
+                        <input type="text" name="bairro" id="bairro" placeholder="Digite aqui..."> 
+
+                        <label>Municipio:</label>
+                        <input type="text" name="city" id="city" placeholder="Digite aqui...">
+                    </div>
+
+                    <div>
+                        <label>Inscrição Municipal:</label>
+                        <input type="text" name="insMunicipio" id="insMunicipio" placeholder="Digite aqui...">                    
+
+                        <label>CEP:</label>
+                        <input type="number" name="cep" id="cep" placeholder="Digite aqui...">
+
+                        <label>Número:</label>
+                        <input type="number" name="numero" id="numero" placeholder="Digite aqui...">
+
+                        <label>Complemento:</label>
+                        <input type="text" name="adc" id="adc" placeholder="Digite aqui...">
+
+                        <label>Estado:</label>
+                        <select name="estado" id="estado">
+                            <option value="">Selecione</option>
+                            <option value="AC">Acre</option>
+                            <option value="AL">Alagoas</option>
+                            <option value="AP">Amapá</option>
+                            <option value="AM">Amazonas</option>
+                            <option value="BA">Bahia</option>
+                            <option value="CE">Ceará</option>
+                            <option value="DF">Distrito Federal</option>
+                            <option value="ES">Espírito Santo</option>
+                            <option value="GO">Goiás</option>
+                            <option value="MA">Maranhão</option>
+                            <option value="MT">Mato Grosso</option>
+                            <option value="MS">Mato Grosso do Sul</option>
+                            <option value="MG">Minas Gerais</option>
+                            <option value="PA">Pará</option>
+                            <option value="PB">Paraíba</option>
+                            <option value="PR">Paraná</option>
+                            <option value="PE">Pernambuco</option>
+                            <option value="PI">Piauí</option>
+                            <option value="RJ">Rio de Janeiro</option>
+                            <option value="RN">Rio Grande do Norte</option>
+                            <option value="RS">Rio Grande do Sul</option>
+                            <option value="RO">Rondônia</option>
+                            <option value="RR">Roraima</option>
+                            <option value="SC">Santa Catarina</option>
+                            <option value="SP">São Paulo</option>
+                            <option value="SE">Sergipe</option>
+                            <option value="TO">Tocantins</option>
+                            <option value="EX">Estrangeiro</option>
+                        </select>
+
+                        <label>E-mail:</label>
+                        <input type="email" name="email" id="email" placeholder="Digite aqui...">
+
+                        <label>Telefone (WhatsApp):</label>
+                        <input type="number" name="tele" id="tele" placeholder="Digite aqui...">
+                    </div>
+                </div>
+
+                <div class="nomeContato">
+                    <label>Nome da Pessoa de Contato:</label>
+                    <input type="text" name="contato" id="contato" placeholder="Digite aqui...">
+                </div>                
+            </form>
+        </section>
+
+        <button name="btnAddProduto" class="btnAddProduto">Adicionar Produto</button>
+    </main>
+</body>
+</html>
